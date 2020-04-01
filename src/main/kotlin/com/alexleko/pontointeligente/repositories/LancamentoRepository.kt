@@ -2,8 +2,8 @@ package com.alexleko.pontointeligente.repositories
 
 import com.alexleko.pontointeligente.documents.Lancamento
 import org.springframework.data.domain.Page
+import org.springframework.data.domain.Pageable
 import org.springframework.data.mongodb.repository.MongoRepository
-import java.awt.print.Pageable
 
 interface LancamentoRepository : MongoRepository<Lancamento, String> {
 
